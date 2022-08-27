@@ -1,0 +1,40 @@
+span{
+    margin: 10px;
+    float: right;
+}
+
+#timer{
+    font-size: 25;
+}
+
+#score{
+    font-size: 20;
+}
+
+#draw_sketch{
+    background-color: rgb(153, 152, 255);
+}
+
+body{
+    background-color: rgb(121, 255, 255);
+}
+
+h1{
+    width: 80%;
+    box-shadow: 5px 5px 10px rgb(20, 20, 177);
+    line-height: 2;
+    background-color: white;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas {
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 10px;
+    animation-iteration-count: infinite;
+}
